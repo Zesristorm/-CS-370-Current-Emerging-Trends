@@ -1,1 +1,14 @@
 # -CS-370-Current-Emerging-Trends
+I worked on a treasure hunt game. The goal was to create an intelligent pirate agent that could move through a maze and find the treasure. The pirate had to learn how to choose the best path instead of being told the exact path ahead of time. I was given starter code for the maze, the game environment, the reward system, and experience replay. The provided code helped set up how the maze worked and how the pirate could move. The part I created myself was the Q-training algorithm. This is the part that trained the pirate using deep Q-learning. My code helped the pirate choose actions, learn from rewards and penalties, save past experiences, and improve over time.
+
+# What Do Computer Scientists Do and Why Does It Matter?
+Computer scientists solve problems using technology. They write programs, create algorithms, work with data, and build systems that can help people. Their work matters because technology is used in almost every part of life, including games, healthcare, schools, businesses, and security. In this project, computer science was used to help a game character learn. Instead of manually programming every move, the pirate learned from experience.
+
+# How Do I Approach a Problem as a Computer Scientist?
+As a computer scientist, I first try to understand the problem and the goal. The goal was for the pirate to reach the treasure. After that, I looked at the starter code to see what was already done and what I needed to add. Then I broke the problem into smaller steps. The pirate needed to look at the maze, choose a move, receive a reward or penalty, save that experience, and use it to learn. I also had to test the code and fix errors when they came up. This showed me that solving a problem is not just about writing code. It also takes testing, debugging, and improving the solution.
+
+# What Are My Ethical Responsibilities to the End User and the Organization?
+My ethical responsibility to the end user is to create software that works correctly and is fair to use. If this were part of a real game, the pirate agent should make the game more interesting without making it unfair or frustrating. My responsibility to the organization is to write code that is clear, honest, and easy to maintain. I should follow the project requirements and not change files that are not supposed to be changed. I should also be honest about what the program can and cannot do. In AI projects, it is important to think about how the system learns and whether its behavior is appropriate for users.
+
+# Reflection
+This project helped me understand reinforcement learning better. I learned how an agent can improve by trying actions, receiving rewards, and training over many attempts. I also learned that AI development can take time because the agent may not learn the best solution right away.
